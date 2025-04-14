@@ -1,15 +1,9 @@
 # Saucedemo
 
-## Intelligent Recruitment Solutions
-
-[![Web test URL](https://www.saucedemo.com/)]()
-
-## Usage
-
 1. Access the web interface at `https://www.saucedemo.com`
 2. Access the API at `https://reqres.in/
 
-### Steps to Run the Scripts
+## Steps to Run the Scripts
 
 1. Clone the repository
 2. Install codeceptjs dependencies
@@ -30,7 +24,7 @@
 
 ## allure reports
 
-* **npm install --save-dev @codeceptjs/allure-legacy
-* **npx allure generate output/allure-results --clean -o output/allure-report
-* **npx allure open output/allure-report
+* npm install --save-dev @codeceptjs/allure-legacy
+* npx allure generate output/allure-results --clean -o output/allure-report
+* npx allure open output/allure-report
 
