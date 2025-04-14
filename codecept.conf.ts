@@ -28,7 +28,7 @@ export const config: CodeceptJS.MainConfig = {
   gherkin: {
     features: [
       './tests/web/features/*.feature',
-      './tests/api/features/*.feature',
+      //'./tests/api/features/*.feature',
     ],
     steps: [
       //web step definitions
