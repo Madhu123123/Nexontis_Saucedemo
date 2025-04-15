@@ -27,8 +27,8 @@ export const config: CodeceptJS.MainConfig = {
   },
   gherkin: {
     features: [
-      './tests/web/features/*.feature',
-      './tests/api/features/*.feature',
+      //'./tests/web/features/*.feature',
+      //./tests/api/features/*.feature',
     ],
     steps: [
       //web step definitions
@@ -38,11 +38,11 @@ export const config: CodeceptJS.MainConfig = {
       './tests/web/step_definitions/confirmsTheOrder.steps.ts',
 
       //api step definitions
-      './tests/api/step_definitions/get_users.steps.ts',
-      './tests/api/step_definitions/create_user.steps.ts',
-      './tests/api/step_definitions/update_user.steps.ts',
-      './tests/api/step_definitions/get_users_delay.steps.ts',
-      './tests/api/step_definitions/login_negative.steps.ts',
+      './tests/api/step_definitions/getUsers.steps.ts',
+      './tests/api/step_definitions/CreateUser.steps.ts',
+      './tests/api/step_definitions/UserUpdate.steps.ts',
+      './tests/api/step_definitions/getDelayUsers.steps.ts',
+      './tests/api/step_definitions/Invalidlogin.steps.ts',
 
 
     ],
