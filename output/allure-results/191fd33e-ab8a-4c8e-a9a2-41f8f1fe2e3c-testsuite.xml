@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1744694050182' stop='1744694062141'>
+    <name>WEB_Products sorting by name:</name>
+    <title>WEB_Products sorting by name:</title>
+    <test-cases>
+        <test-case start='1744694051999' status='passed' stop='1744694062017'>
+            <name>Validate sorting by name for a user {"username":"standard_user","password":"secret_sauce","sortOption":"Name (A to Z)","expectedOrder":"AtoZ"}</name>
+            <title>Validate sorting by name for a user {"username":"standard_user","password":"secret_sauce","sortOption":"Name (A to Z)","expectedOrder":"AtoZ"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694052602' status='passed' stop='1744694052738'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694052739' status='passed' stop='1744694052848'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694052849' status='passed' stop='1744694054491'>
+                    <name>Given I am on the SauceDemo login page ""</name>
+                    <title>Given I am on the SauceDemo login page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694052849' status='passed' stop='1744694054490'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694054491' status='passed' stop='1744694055757'>
+                    <name>When I login as "standard_user" with password "secret_sauce" ""</name>
+                    <title>When I login as "standard_user" with password "secret_sauce" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694054491' status='passed' stop='1744694055108'>
+                            <name>I fill field "#user-name", "standard_user"</name>
+                            <title>I fill field "#user-name", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694055108' status='passed' stop='1744694055524'>
+                            <name>I fill field "#password", "secret_sauce"</name>
+                            <title>I fill field "#password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694055524' status='passed' stop='1744694055757'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694055757' status='passed' stop='1744694059940'>
+                    <name>And I sort products by "Name (A to Z)" ""</name>
+                    <title>And I sort products by "Name (A to Z)" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694055757' status='passed' stop='1744694055916'>
+                            <name>I select option ".product_sort_container", "Name (A to Z)"</name>
+                            <title>I select option ".product_sort_container", "Name (A to Z)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694055916' status='passed' stop='1744694059925'>
+                            <name>I wait 4</name>
+                            <title>I wait 4</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694059926' status='passed' stop='1744694059940'>
+                            <name>I wait for element ".inventory_item_name", 5</name>
+                            <title>I wait for element ".inventory_item_name", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694059940' status='passed' stop='1744694062017'>
+                    <name>Then I should see products sorted in "AtoZ" order ""</name>
+                    <title>Then I should see products sorted in "AtoZ" order ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694059940' status='passed' stop='1744694059983'>
+                            <name>I grab text from all ".inventory_item_name"</name>
+                            <title>I grab text from all ".inventory_item_name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694059998' status='passed' stop='1744694062012'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

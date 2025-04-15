@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1744694107408' stop='1744694109599'>
+    <name>API_Get Users with delay:</name>
+    <title>API_Get Users with delay:</title>
+    <test-cases>
+        <test-case start='1744694107409' status='failed' stop='1744694108143'>
+            <name>Validate response with delay query {"endpoint":"api/users?delay=0"}</name>
+            <title>Validate response with delay query {"endpoint":"api/users?delay=0"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694107797' status='passed' stop='1744694107923'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694107924' status='passed' stop='1744694108034'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694108035' status='failed' stop='1744694108143'>
+                    <name>When I send a GET request to "api/users?delay=0" ""</name>
+                    <title>When I send a GET request to "api/users?delay=0" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694108035' status='failed' stop='1744694108143'>
+                            <name>I send get request "api/users?delay=0"</name>
+                            <title>I send get request "api/users?delay=0"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='03abe140-9fd7-4e1a-be8b-44af3ed376cf-attachment.png' type='image/png' size='8467'/>
+            </attachments>
+            <failure>
+                <message>unable to get local issuer certificate</message>
+                <stack-trace>Error: unable to get local issuer certificate
+                    at Function.AxiosError.from (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\axios\lib\core\AxiosError.js:92:14)
+                    at RedirectableRequest.handleRequestError (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\axios\lib\adapters\http.js:620:25)
+                    at RedirectableRequest.emit (node:events:520:28)
+                    at RedirectableRequest.emit (node:domain:488:12)
+                    at ClientRequest.eventHandlers.&lt;computed> (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\follow-redirects\index.js:49:24)
+                    at ClientRequest.emit (node:events:520:28)
+                    at ClientRequest.emit (node:domain:488:12)
+                    at emitErrorEvent (node:_http_client:103:11)
+                    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+                    at TLSSocket.emit (node:events:520:28)
+                    at Axios.request (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\axios\lib\core\Axios.js:45:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async REST._executeRequest (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\codeceptjs\lib\helper\REST.js:229:18)
+                    at async C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\tests\api\step_definitions\getDelayUsers.steps.ts:10:19
+                    at async runSteps (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\codeceptjs\lib\mocha\gherkin.js:85:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1744694108497' status='failed' stop='1744694109239'>
+            <name>Validate response with delay query {"endpoint":"api/users?delay=3"}</name>
+            <title>Validate response with delay query {"endpoint":"api/users?delay=3"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694108880' status='passed' stop='1744694109009'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694109010' status='passed' stop='1744694109119'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694109119' status='failed' stop='1744694109239'>
+                    <name>When I send a GET request to "api/users?delay=3" ""</name>
+                    <title>When I send a GET request to "api/users?delay=3" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694109119' status='failed' stop='1744694109239'>
+                            <name>I send get request "api/users?delay=3"</name>
+                            <title>I send get request "api/users?delay=3"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='f3d59340-d2b9-4443-9ebb-1ef0f20f49ce-attachment.png' type='image/png' size='8467'/>
+            </attachments>
+            <failure>
+                <message>unable to get local issuer certificate</message>
+                <stack-trace>Error: unable to get local issuer certificate
+                    at Function.AxiosError.from (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\axios\lib\core\AxiosError.js:92:14)
+                    at RedirectableRequest.handleRequestError (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\axios\lib\adapters\http.js:620:25)
+                    at RedirectableRequest.emit (node:events:520:28)
+                    at RedirectableRequest.emit (node:domain:488:12)
+                    at ClientRequest.eventHandlers.&lt;computed> (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\follow-redirects\index.js:49:24)
+                    at ClientRequest.emit (node:events:520:28)
+                    at ClientRequest.emit (node:domain:488:12)
+                    at emitErrorEvent (node:_http_client:103:11)
+                    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+                    at TLSSocket.emit (node:events:520:28)
+                    at Axios.request (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\axios\lib\core\Axios.js:45:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async REST._executeRequest (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\codeceptjs\lib\helper\REST.js:229:18)
+                    at async C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\tests\api\step_definitions\getDelayUsers.steps.ts:10:19
+                    at async runSteps (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\codeceptjs\lib\mocha\gherkin.js:85:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

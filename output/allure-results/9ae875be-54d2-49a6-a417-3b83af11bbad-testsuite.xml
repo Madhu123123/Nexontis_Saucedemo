@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1744694172609' stop='1744694174132'>
+    <name>API_Create Users API:</name>
+    <title>API_Create Users API:</title>
+    <test-cases>
+        <test-case start='1744694172610' status='passed' stop='1744694173985'>
+            <name>Create user and validate creation date {"name":"Madhu","job":"QA","statusCode":"201"}</name>
+            <title>Create user and validate creation date {"name":"Madhu","job":"QA","statusCode":"201"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694173372' status='passed' stop='1744694173498'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694173498' status='passed' stop='1744694173609'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694173610' status='passed' stop='1744694173985'>
+                    <name>When I create a new user with name "Madhu" and job "QA" ""</name>
+                    <title>When I create a new user with name "Madhu" and job "QA" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694173610' status='passed' stop='1744694173970'>
+                            <name>I send post request "api/users", {"name":"Madhu","job":"QA"}</name>
+                            <title>I send post request "api/users", {"name":"Madhu","job":"QA"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

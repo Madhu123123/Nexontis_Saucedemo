@@ -1,0 +1,170 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1744694067466' stop='1744694082199'>
+    <name>WEB_Selected Product in the cart:</name>
+    <title>WEB_Selected Product in the cart:</title>
+    <test-cases>
+        <test-case start='1744694067467' status='passed' stop='1744694082105'>
+            <name>User able to add the selected Product in the cart {"username":"problem_user","password":"secret_sauce","product_name":"Sauce Labs Bike Light"}</name>
+            <title>User able to add the selected Product in the cart {"username":"problem_user","password":"secret_sauce","product_name":"Sauce Labs Bike Light"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694068207' status='passed' stop='1744694068344'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694068345' status='passed' stop='1744694068452'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694068452' status='passed' stop='1744694071631'>
+                    <name>Given I am on the login page ""</name>
+                    <title>Given I am on the login page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694068452' status='passed' stop='1744694069623'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694069623' status='passed' stop='1744694071631'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694071631' status='passed' stop='1744694074694'>
+                    <name>When I login with username "problem_user" and password "secret_sauce" ""</name>
+                    <title>When I login with username "problem_user" and password "secret_sauce" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694071631' status='passed' stop='1744694072073'>
+                            <name>I fill field "//input[@id="user-name"]", "problem_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "problem_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694072073' status='passed' stop='1744694072456'>
+                            <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                            <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694072456' status='passed' stop='1744694072679'>
+                            <name>I click "//input[@id="login-button"]"</name>
+                            <title>I click "//input[@id="login-button"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694072679' status='passed' stop='1744694074693'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694074694' status='passed' stop='1744694074700'>
+                    <name>Then I should see the saucedemo products page ""</name>
+                    <title>Then I should see the saucedemo products page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694074694' status='passed' stop='1744694074700'>
+                            <name>I see "Products"</name>
+                            <title>I see "Products"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694074700' status='passed' stop='1744694076889'>
+                    <name>And I should select the "Sauce Labs Bike Light" product and add to the cart ""</name>
+                    <title>And I should select the "Sauce Labs Bike Light" product and add to the cart ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694074700' status='passed' stop='1744694074882'>
+                            <name>I click "//div[text()="Sauce Labs Bike Light"]/ancestor::div[@class="inventory_item"]//button[contains(text(),"Add to cart")]"</name>
+                            <title>I click "//div[text()="Sauce Labs Bike Light"]/ancestor::div[@class="inventory_item"]//button[contains(text(),"Add to cart")]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694074886' status='passed' stop='1744694076889'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694076889' status='passed' stop='1744694077079'>
+                    <name>And I should see the Product in the cart ""</name>
+                    <title>And I should see the Product in the cart ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694076890' status='passed' stop='1744694077072'>
+                            <name>I click ".shopping_cart_link"</name>
+                            <title>I click ".shopping_cart_link"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694077072' status='passed' stop='1744694077079'>
+                            <name>I see "Your Cart"</name>
+                            <title>I see "Your Cart"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694077079' status='passed' stop='1744694082099'>
+                    <name>And I should see the cart icon with 1 items ""</name>
+                    <title>And I should see the cart icon with 1 items ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694077079' status='passed' stop='1744694077087'>
+                            <name>I see element ".shopping_cart_badge"</name>
+                            <title>I see element ".shopping_cart_badge"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694077088' status='passed' stop='1744694077096'>
+                            <name>I see "1", ".shopping_cart_badge"</name>
+                            <title>I see "1", ".shopping_cart_badge"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694077097' status='passed' stop='1744694082099'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694082099' status='passed' stop='1744694082105'>
+                    <name>And I should see the cart have "Sauce Labs Bike Light" only contains the selected items ""</name>
+                    <title>And I should see the cart have "Sauce Labs Bike Light" only contains the selected items ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694082099' status='passed' stop='1744694082105'>
+                            <name>I grab text from all ".inventory_item_name"</name>
+                            <title>I grab text from all ".inventory_item_name"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

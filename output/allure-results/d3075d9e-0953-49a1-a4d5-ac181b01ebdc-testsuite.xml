@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1744694062167' stop='1744694067449'>
+    <name>WEB_Locked Out User Validation:</name>
+    <title>WEB_Locked Out User Validation:</title>
+    <test-cases>
+        <test-case start='1744694062168' status='passed' stop='1744694067340'>
+            <name>Login attempt with locked out user should be blocked {"username":"locked_out_user","password":"secret_sauce"}</name>
+            <title>Login attempt with locked out user should be blocked {"username":"locked_out_user","password":"secret_sauce"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694062578' status='passed' stop='1744694062709'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694062710' status='passed' stop='1744694062817'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694062818' status='passed' stop='1744694063696'>
+                    <name>Given I am on the SauceDemo login page ""</name>
+                    <title>Given I am on the SauceDemo login page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694062818' status='passed' stop='1744694063694'>
+                            <name>I am on page "https://www.saucedemo.com/"</name>
+                            <title>I am on page "https://www.saucedemo.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694063696' status='passed' stop='1744694064978'>
+                    <name>When I login as "locked_out_user" with password "secret_sauce" ""</name>
+                    <title>When I login as "locked_out_user" with password "secret_sauce" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694063696' status='passed' stop='1744694064379'>
+                            <name>I fill field "#user-name", "locked_out_user"</name>
+                            <title>I fill field "#user-name", "locked_out_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694064380' status='passed' stop='1744694064777'>
+                            <name>I fill field "#password", "secret_sauce"</name>
+                            <title>I fill field "#password", "secret_sauce"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694064778' status='passed' stop='1744694064978'>
+                            <name>I click "#login-button"</name>
+                            <title>I click "#login-button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1744694064978' status='passed' stop='1744694067340'>
+                    <name>Then I should see a locked out error message ""</name>
+                    <title>Then I should see a locked out error message ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694064978' status='passed' stop='1744694064989'>
+                            <name>I wait for element "[data-test="error"]", 5</name>
+                            <title>I wait for element "[data-test="error"]", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694064989' status='passed' stop='1744694065006'>
+                            <name>I see "Sorry, this user has been locked out.", "[data-test="error"]"</name>
+                            <title>I see "Sorry, this user has been locked out.", "[data-test="error"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694065006' status='passed' stop='1744694065321'>
+                            <name>I save screenshot "locked_out_user_error.png"</name>
+                            <title>I save screenshot "locked_out_user_error.png"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1744694065323' status='passed' stop='1744694067340'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

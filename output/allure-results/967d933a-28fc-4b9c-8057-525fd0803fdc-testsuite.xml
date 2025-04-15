@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1744694165073' stop='1744694166222'>
+    <name>API_Invalid Login Validation:</name>
+    <title>API_Invalid Login Validation:</title>
+    <test-cases>
+        <test-case start='1744694165075' status='passed' stop='1744694166071'>
+            <name>Login attempt without password should fail {"email":"sdfdf@test.in","errorMessage":"Missing password"}</name>
+            <title>Login attempt without password should fail {"email":"sdfdf@test.in","errorMessage":"Missing password"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694165454' status='passed' stop='1744694165581'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694165581' status='passed' stop='1744694165691'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694165693' status='passed' stop='1744694166071'>
+                    <name>When I try to login with email "sdfdf@test.in" and no password ""</name>
+                    <title>When I try to login with email "sdfdf@test.in" and no password ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694165693' status='passed' stop='1744694166061'>
+                            <name>I send post request "api/login", {"email":"sdfdf@test.in"}</name>
+                            <title>I send post request "api/login", {"email":"sdfdf@test.in"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

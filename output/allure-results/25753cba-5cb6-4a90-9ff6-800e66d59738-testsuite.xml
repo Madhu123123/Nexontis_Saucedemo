@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1744694167063' stop='1744694172596'>
+    <name>API_Get Users with delay:</name>
+    <title>API_Get Users with delay:</title>
+    <test-cases>
+        <test-case start='1744694167064' status='passed' stop='1744694168131'>
+            <name>Validate response with delay query {"endpoint":"api/users?delay=0"}</name>
+            <title>Validate response with delay query {"endpoint":"api/users?delay=0"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694167500' status='passed' stop='1744694167642'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694167643' status='passed' stop='1744694167773'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694167777' status='passed' stop='1744694168131'>
+                    <name>When I send a GET request to "api/users?delay=0" ""</name>
+                    <title>When I send a GET request to "api/users?delay=0" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694167777' status='passed' stop='1744694168111'>
+                            <name>I send get request "api/users?delay=0"</name>
+                            <title>I send get request "api/users?delay=0"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1744694168353' status='failed' stop='1744694172280'>
+            <name>Validate response with delay query {"endpoint":"api/users?delay=3"}</name>
+            <title>Validate response with delay query {"endpoint":"api/users?delay=3"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694168704' status='passed' stop='1744694168832'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694168832' status='passed' stop='1744694168940'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694168941' status='failed' stop='1744694172280'>
+                    <name>When I send a GET request to "api/users?delay=3" ""</name>
+                    <title>When I send a GET request to "api/users?delay=3" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694168941' status='passed' stop='1744694172276'>
+                            <name>I send get request "api/users?delay=3"</name>
+                            <title>I send get request "api/users?delay=3"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='89840dfc-282b-4b4b-85a1-b99da899b8fd-attachment.png' type='image/png' size='8467'/>
+            </attachments>
+            <failure>
+                <message>Response time exceeded 1 second (got ${responseTime} ms): expected 3573 to be below 1000</message>
+                <stack-trace>AssertionError: Response time exceeded 1 second (got ${responseTime} ms): expected 3573 to be below 1000
+                    at C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\tests\api\step_definitions\getDelayUsers.steps.ts:16:30
+                    at runSteps (C:\Users\reddym1\Documents\TOOLS-G\PlaywrightTask\Codecept_Sacedemo_M2\node_modules\codeceptjs\lib\mocha\gherkin.js:85:15)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

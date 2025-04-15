@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1744694160864' stop='1744694165050'>
+    <name>API_Update the Users details API:</name>
+    <title>API_Update the Users details API:</title>
+    <test-cases>
+        <test-case start='1744694162284' status='passed' stop='1744694163733'>
+            <name>Update a user and validate response {"endpoint":"api/users/2","name":"MadhuM","job":"QA","statusCode":"200"}</name>
+            <title>Update a user and validate response {"endpoint":"api/users/2","name":"MadhuM","job":"QA","statusCode":"200"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694162927' status='passed' stop='1744694163070'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694163071' status='passed' stop='1744694163175'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694163176' status='passed' stop='1744694163733'>
+                    <name>When I send a PUT request to "api/users/2" with name "MadhuM" and job "QA" ""</name>
+                    <title>When I send a PUT request to "api/users/2" with name "MadhuM" and job "QA" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694163176' status='passed' stop='1744694163709'>
+                            <name>I send put request "api/users/2", {"name":"MadhuM","job":"QA"}</name>
+                            <title>I send put request "api/users/2", {"name":"MadhuM","job":"QA"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1744694163894' status='passed' stop='1744694164905'>
+            <name>Update a user and validate response {"endpoint":"api/users/5","name":"TestM","job":"scrumMaster","statusCode":"200"}</name>
+            <title>Update a user and validate response {"endpoint":"api/users/5","name":"TestM","job":"scrumMaster","statusCode":"200"}</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1744694164318' status='passed' stop='1744694164447'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694164448' status='passed' stop='1744694164569'>
+                    <name>I resize window 1900, 1100</name>
+                    <title>I resize window 1900, 1100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1744694164569' status='passed' stop='1744694164905'>
+                    <name>When I send a PUT request to "api/users/5" with name "TestM" and job "scrumMaster" ""</name>
+                    <title>When I send a PUT request to "api/users/5" with name "TestM" and job "scrumMaster" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1744694164569' status='passed' stop='1744694164892'>
+                            <name>I send put request "api/users/5", {"name":"TestM","job":"scrumMaster"}</name>
+                            <title>I send put request "api/users/5", {"name":"TestM","job":"scrumMaster"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
