@@ -9,3 +9,4 @@ Feature: API_Update the Users details API
       | endpoint     | name         | job           | statusCode |
       | api/users/2  | MadhuM       | QA            | 200        |
       | api/users/5  | TestM        | scrumMaster   | 200        |
+      

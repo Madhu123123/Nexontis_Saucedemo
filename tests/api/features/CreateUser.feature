@@ -8,4 +8,7 @@ Feature: API_Create Users API
     Examples:
       | name             | job     | statusCode |
       | Madhu            | QA      | 201        |
+
+      
+
       

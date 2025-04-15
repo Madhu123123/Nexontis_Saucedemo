@@ -25,6 +25,7 @@ Then('I print users with odd IDs from the GET response', () => {
     console.log(`ID: ${user.id}, Name: ${user.first_name} ${user.last_name}`);
     //I.amOnPage(`ID: ${user.id}, Name: ${user.first_name} ${user.last_name}`);
   });
+  
 
 
 

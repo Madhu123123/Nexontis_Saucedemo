@@ -9,3 +9,4 @@ Feature: API_Get Users with delay
       | endpoint              |
       | api/users?delay=0     |
       | api/users?delay=3     |
+      

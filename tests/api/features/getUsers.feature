@@ -8,3 +8,5 @@ Feature: API_Get Users API
     Examples:
       | endpoint             | statusCode |
       | api/users?page=1     | 200        |
+
+      
